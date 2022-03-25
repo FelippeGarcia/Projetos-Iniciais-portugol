@@ -1,0 +1,24 @@
+Var
+
+dinheiro: real
+
+Inicio
+
+Escreval ("Vamos ver como vamos passar o mês?")
+Escreva ("Quanto temos no banco hoje?")
+Leia (dinheiro)
+
+Se (dinheiro >= 10000) ENTAO
+Escreva ("Opa! Vamos para a Disney!")
+
+Senao
+Se (dinheiro < 10000) e (dinheiro >= 5000) ENTAO
+Escreva ("Vamos para Jericoacoara")
+
+Senao
+Se (dinheiro < 5000) ENTAO
+Escreva ("Vamos ficar em casa mesmo!")
+Fimse
+Fimse
+Fimse
+Fimalgoritmo
