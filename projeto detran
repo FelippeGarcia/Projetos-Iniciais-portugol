@@ -1,0 +1,25 @@
+Var
+
+AnoA, AnoN: inteiro
+Nm: Caractere
+
+Inicio
+
+Escreval("-----Detran Online------")
+Escreva ("Digite o seu nome ")
+Leia(Nm)
+Escreva ("Ola, ", Nm, ", por favor, digite o ano atual ")
+Leia(AnoA)
+Escreva ("Perfeito, agora nos informe o seu ano de nascimento ")
+Leia (AnoN)
+
+Se (AnoA-AnoN >= 18) ENTAO
+Escreva ("Voce esta apto para tirar a carteira de motorista")
+
+Senao
+Escreva ("Voce esta inapto para tirar a carteira de motorista")
+Fimse
+
+
+
+Fimalgoritmo
