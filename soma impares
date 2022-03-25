@@ -1,0 +1,28 @@
+Var
+
+C, V, TT, IMPAO: inteiro
+
+
+
+Inicio
+
+  TT <- 0
+  IMPAO <- 0
+Para C <-1 ate 6 faca
+  Escreva ("Digite um valor ")
+  Leia (V)
+  Se (V>=0) e (V<=10) entao
+  TT <- TT +1
+  FimSe
+  Se (V%2=1) ENTAO
+  IMPAO <- IMPAO + V
+FimSe
+FimPara
+
+Escreval ("ao todo foram ", TT, " valores entre 0 e 10")
+
+Escreval ("a soma dos impares e de ", IMPAO)
+
+
+
+Fimalgoritmo
