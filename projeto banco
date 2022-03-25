@@ -1,0 +1,24 @@
+Var
+
+   E1, TX, TF, PC, TPC: real
+
+Inicio
+
+Escreva ("De quanto vai ser o seu emprestimo? ")
+Leia (E1)           // E1 é o valor do emprestimo
+
+TX <- (E1*0.2)  //TX éo juro em real
+TF <- (TX + E1)    // TF éo valor total do emprestimo
+
+
+Escreval ("Beleza! O valor do juro e de R$", TX, " e você vai pagar R$", TF)
+
+Escreva ("E voce vai querer dividir em quantas vezes?")
+Leia (PC)
+
+TPC <- (TF/PC)   // TPC é o valor da parcela
+
+Escreva ("Voce devera pagar", PC, " parcelas de R$", TPC)
+
+
+Fimalgoritmo
