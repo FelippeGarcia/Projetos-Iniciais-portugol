@@ -1,0 +1,24 @@
+v: vetor [1..3] de real
+indice: inteiro
+media: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ para indice de 1 ate 3 faca
+ 
+      escreva ("Digite a sua nota ", indice, " :")
+      leia (v[indice])
+ fimpara
+      
+ para indice de 1 ate 3 faca
+      escreval ("A nota ", indice, " foi: ", v [indice])
+      
+      media <- media+ v[indice]
+fimpara
+
+
+     escreval ("A sua media e", media/3)
+
+
+
+Fimalgoritmo
