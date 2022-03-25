@@ -1,0 +1,52 @@
+Var
+
+OP: caractere
+ V, Va: Real
+
+Inicio
+
+Escreval ("---------------------------------------")
+Escreval ("    Bem vindo a Central de Recargas")
+Escreval  ("---------------------------------------")
+
+Escreva ("Escolha a sua Operadora ")
+Leia (OP)
+Escreval ("Vamos escolher o valor da recarga para o seu telefone da ", OP)
+Escreval (" [1] R$ 15,00")
+Escreval (" [2] R$ 20,00")
+Escreval (" [3] R$ 30,00")
+Escreval (" [4] Outro valor")
+Escreval (" [5] Cancelar")
+Leia (V)
+
+Escolha (V)
+
+Caso 1
+
+Va <- 15
+
+Caso 2
+
+Va <- 20
+
+Caso 3
+
+Va <- 30
+
+Caso 4
+
+Escreva ("Escolha o valor da recarga ")
+Leia (Va)
+
+Caso 5
+Va <- 0
+
+FimEscolha
+
+Escreval ("Sua recarga foi de R$ ", Va, " reais")
+Escreva ("Muito obrigado pela confiança em nosso trabalho!")
+
+
+
+
+Fimalgoritmo
