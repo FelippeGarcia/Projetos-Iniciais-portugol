@@ -1,0 +1,47 @@
+Var
+
+P1, P2, P3, mg: real
+
+Inicio
+
+Escreva("Digite a nota da Prova 1 ")
+Leia(P1)
+
+Enquanto (P1>1)   FACA
+Escreva ("ERRO! Digite um número valido!")
+Leia(P1)
+fimenquanto
+
+Se (P1<=1) ENTAO
+Escreva("Digite a nota da Prova 2 ")
+Leia(P2)
+fimse
+
+Enquanto (P2>2)   FACA
+Escreva ("ERRO! Digite um número valido!")
+Leia (P2)
+fimenquanto
+
+Se (P2<=2) ENTAO
+Escreva("Digite a nota da Prova 3 ")
+Leia(P3)
+fimse
+
+Enquanto (P3>7)   FACA
+Escreva ("ERRO! Digite um número valido!")
+Leia (P3)
+fimenquanto
+
+mg <-(P1+P2+P3)
+
+Se mg>=7 ENTAO
+
+Escreva ("Voce esta aprovado")
+fimse
+
+Se mg<7 ENTAO
+
+Escreva ("Você está reprovado")
+fimse
+
+Fimalgoritmo
